@@ -9,7 +9,7 @@ I have developed a script that logs things to the discord. This script is easy t
 exports["vc_logs"]:sendWebhook(source, event, description, eventType)
     PARAMS: 
     1. source = Player Network ID
-    2. event = Target eventType
+    2. event = Target event
     3. description = Set to "DEFAULT"
     4. eventType = types: "base" "esx" "default"
 ```
