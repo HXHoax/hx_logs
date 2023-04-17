@@ -1,0 +1,125 @@
+    PUT THIS IN THE CONFIG.ESXTRIGGERS
+    
+    ['client_list'] = {
+        -- Job Triggers, NoClip Triggers, Shoot Triggers, Triggers that are used from the client side.
+
+        -- Ambulance 
+        ["esx_ambulancejob:revive"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_ambulancejob:heal'"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+        
+        ["esx_ambulancejob:putInVehicle'"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_ambulancejob:payFine'"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_ambulancejob:removeItem'"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_ambulancejob:giveItem'"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+        
+        ["esx_ambulancejob:setDeathStatus'"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+
+
+        -- Police 
+        ["esx_policejob:OutVehicle"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_policejob:drag"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_policejob:putInVehicle"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_policejob:handcuff"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        -- General
+        ["esx:setJob"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:addWeapon"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:setWeaponAmmo"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+        
+        ["esx:teleport"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:spawnVehicle"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:createPickup"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:deleteVehicle"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+
+    },
+
+    ['server_list'] = {
+        -- Money Triggers, Pay Triggers, Trigger that are used from the server side.
+
+        -- Ambulance
+        ["esx_ambulancejob:svsearch"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+
+
+        -- Shops
+        ["esx_shops:buyItem"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx_clotheshop:saveOutfit"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        -- General
+        ["esx:giveInventoryItem"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:removeInventoryItem"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:useItem"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+
+        ["esx:useItem"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+        
+        ["esx:onPlayerDeath"] = {
+            ['url'] = "WEBHOOK HERE"
+        },
+    }
